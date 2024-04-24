@@ -1,0 +1,55 @@
+/* SnakeGame.css */
+
+/* Game Board */
+.GameBoard {
+  position: relative;
+  border: 2px solid #000;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Snake Part */
+.SnakePart {
+  position: absolute;
+  background-color: #00f; /* Blue color for snake */
+}
+
+/* Apple */
+.Apple {
+  position: absolute;
+  background-color: #f00; /* Red color for apple */
+}
+
+/* Game Over Screen */
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Button */
+.game-over button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.game-over button:hover {
+  background-color: #0056b3;
+}
+
+.Score {
+  position: absolute;
+  top: -30px;
+  right: 5px; /* Adjust this value based on your layout */
+  font-size: 20px;
+  color: #000;
+}
