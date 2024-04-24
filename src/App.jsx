@@ -10,7 +10,7 @@ import Wordle from '../Routes/Wordle';
 function App() {
 
   return (
-    <Router basename='/rps-react'>
+    <Router basename='/gamehub-patel6nr'>
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
